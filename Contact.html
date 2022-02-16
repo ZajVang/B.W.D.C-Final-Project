@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP FITNESS</title>
     <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="/CSS/Contactform.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Prompt:wght@200&family=Quattrocento+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a01ecfd688.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -23,5 +28,37 @@
             </nav>
         </div> 
     </header>
+
+    <div class="contacth3"><h3>Contact Form:</h3></div>
+    <div class="container">
+        <form action="/action_page.php">
+
+          <label for="fname">Firstname</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+         <!--footer start here -->
+    <footer>
+        <div class="footer1">
+            <p> Copyright © 2022 Za Vang Studio. All rights reserved.</p>
+            <a href="https://www.facebook.com/ZajTsu/"<i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/senpai.zaj/?hl=en"<i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
