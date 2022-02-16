@@ -1,0 +1,54 @@
+h1 {
+    font-size: 50px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #32142D;
+  }
+  
+  .hero-image {
+    background-image: linear-gradient(#32142dc7, rgba(202, 188, 188, 0.158)), url(/IMG/STRONGEREXCUSES.jpg);
+    height: 100%;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  a {
+    border: solid;
+    background-color: black;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #32142D;
+    color: white;
+  }
+
+  footer { 
+    position:absolute;
+    bottom: 0;
+    text-align: left;
+    background-color: none;
+    color: white;
+}

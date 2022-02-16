@@ -1,0 +1,39 @@
+body {
+    background-color: #32142D ;
+}
+.mainnav li {
+    background-color: none ;
+    height: 70px;
+    width: 150px;
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 65px;
+    list-style: none;
+    float: right;
+    border-radius: 30px;
+}
+.mainnav li:hover {
+    background-color: #1f084b;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.logo {
+    background-color: #32142D ;
+    height: 70px;
+    width: 350px;
+    text-align: center;
+    float: left;
+}
+nav {
+    background-color: #32142D;
+}
+footer { 
+    position:absolute;
+    bottom: 0;
+    text-align: left;
+    background-color: #32142D;
+    color: white;
+}
