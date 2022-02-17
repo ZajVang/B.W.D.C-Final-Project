@@ -43,10 +43,10 @@ body, html {
   font-family: 'Poppins', sans-serif;
   background-color: #32142D ;
   height: 100%;
-  width:auto
+  width:auto;
 }
 .mainnav li {
-  background-color: none ;
+  background-color: none;
   height: 70px;
   width: 150px;
   text-align: center;
