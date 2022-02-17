@@ -1,6 +1,8 @@
 body, html {
     font-family: 'Poppins', sans-serif;
     background-color: #32142D ;
+    height: 100%;
+    width:auto
 }
 .mainnav li {
     background-color: none ;
@@ -32,14 +34,46 @@ a {
 nav {
     background-color: #32142D;
 }
-footer { 
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem; 
+  }
+  #footer {
     position: absolute;
     bottom: 0;
-    text-align: left;
-    background-color: #32142D;
-    color: white;
-}
-
+    width: 100%;
+    height: 2.5rem;    
+    color:white
+  }
 .fa-brands {
     float: right;
-    margin-left: 15px;}
+    margin-left: 20px;
+    margin-top: 5px;
+}
+iframe {
+    position: none;
+    top: 200px
+}
+
+.IMGWAR {
+    border-radius: 30px;
+}
+
+.Crew1 {
+    border-radius: 400px;
+    border: solid white;
+    height: 100vh;
+    display: block;  
+    margin-left:auto; 
+    margin-right: auto;
+    padding: 5px;  
+}
+
+.video1 {
+    float:right
+}
+

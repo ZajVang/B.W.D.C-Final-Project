@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP FITNESS</title>
-    <link rel="stylesheet" href="/CSS/styles.css">
     <link rel="stylesheet" href="/CSS/Contactform.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +14,7 @@
 <body>
     <header>
         <div>
-            <a href="Index.html">
+            <a href="HeroIMG.html">
                 <img class="logo" alt="logo" src="/IMG/TOP FITNESS COVER 1.1.png" ></a>
         </div>          
         <div class="mainnav">
@@ -29,36 +28,36 @@
         </div> 
     </header>
 
-    <div class="contacth3"><h3>Contact Form:</h3></div>
+    <div class="contacth3"><h3> Contact us for more information  :</h3></div>
     <div class="container">
         <form action="/action_page.php">
 
-          <label for="fname">Firstname</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
       
-          <label for="lname">Last Name</label>
           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="text" placeholder="Enter Email" name="email" required>
+
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height: 150px"></textarea>
       
           <input type="submit" value="Submit">
         </form>
       </div>
 
-         <!--footer start here -->
-    <footer>
-        <div class="footer1">
-            <p> Copyright © 2022 Za Vang Studio. All rights reserved.</p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12787.54970747665!2d-119.77734554999998!3d36.749273099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1644905002989!5m2!1sen!2sus"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <!--footer start here -->
+    <div id="page-container">
+        <div id="content-wrap">
+        </div>
+        <footer id="footer">
+            <p> Copyright © 2022 Za Vang Studio. All rights reserved.
             <a href="https://www.facebook.com/ZajTsu/"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://www.instagram.com/senpai.zaj/?hl=en"><i class="fa-brands fa-instagram-square"></i></a>
-        </div>
-    </footer>
+            </p>
+        </footer>
+    </div>
 </body>
 </html>

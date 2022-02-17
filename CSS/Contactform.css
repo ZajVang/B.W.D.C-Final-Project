@@ -1,10 +1,8 @@
-body {font-family: 'Poppins', sans-serif;}
-* {box-sizing:board-box}
 
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(10, 1, 1);
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -27,7 +25,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #f5f3f393;
+  background-color: #685d5dc2;
   padding: 20px;
   position: relative;
   top: 160px; left: 0px;
@@ -35,6 +33,67 @@ input[type=submit]:hover {
 
 .contacth3 h3{
     color: white;
-    position: fixed;
-    top: 122px; left: 20px
+    position: relative;
+    top: 180px; right: 340px
+}
+
+body, html {
+  font-family: 'Poppins', sans-serif;
+  background-color: #32142D ;
+  height: 100%;
+  width:auto
+}
+.mainnav li {
+  background-color: none ;
+  height: 70px;
+  width: 150px;
+  text-align: center;
+  padding-top: 30px;
+  margin-right: 65px;
+  list-style: none;
+  float: right;
+  border-radius: 30px;
+}
+.mainnav li:hover {
+  background-color: #1f084b;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+.logo {
+  background-color: #32142D ;
+  height: 70px;
+  width: 350px;
+  padding-top: 8px;
+  text-align: center;
+  float: left;
+}
+nav {
+  background-color: #32142D;
+}
+#page-container {
+  position: relative;
+  min-height: 20vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem; 
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;    
+  color:white
+}
+.fa-brands {
+  float: right;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+iframe {
+  position: relative;
+  top: 200px
 }

@@ -28,7 +28,7 @@ body, html {
     color: white;
   }
   
-  a {
+  .hero-text a {
     border: solid;
     background-color: black;
     display: inline-block;
@@ -45,10 +45,27 @@ body, html {
     color: white;
   }
 
-  footer { 
-    position:absolute;
+.fa-brands {
+  float: right;
+  margin-left: 20px;
+  margin-top: 5px;
+  color: white;
+  }
+
+  #page-container {
+    position: relative;
+    bottom: 20px;
+    min-height: 0;
+  }
+  
+  #content-wrap {
+    padding-bottom: 1rem;    /* Footer height */
+  }
+  
+  #footer {
+    position: absolute;
     bottom: 0;
-    text-align: left;
-    background-color: none;
-    color: white;
-}
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+    color:white
+  }
